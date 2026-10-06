@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Técnico Superior</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="contenedor">
+            <a href="#inicio" class="logo">
+                <span>Instituto Técnico Superior</span>
+            </a>
+            <nav class="navegación">
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#beneficios">Beneficios</a>
+                <a href="#contactos">Contactos</a>
+                <a href="#consultas">Consultas</a>
+                <a href="#registro">Registro</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Formación técnica de calidad</h2>
+            <p class="texto-centro">
+                Desarrolla tus conocimientos y habilidades prácticas para alcanzar tus metas profesionales en el mercado actual.
+            </p>
+            <div style="text-align: center;">
+                <a href="#registro" class="boton">Regístrate ahora</a>
+            </div>
+            <br>
+            <img src="https://images.pexels.com/photos/10498787/pexels-photo-10498787.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Estudiantes de un instituto Técnico" class="imagen-principal">
+        </section>
+
+        <section id="nosotros">
+            <h2>Sobre nosotros</h2>
+            <p class="texto-centro">
+               Somos una institución de formación técnica orientada al desarrollo profesional de nuestros estudiantes mediante una educación moderna, tecnológica y enfocada en la práctica.
+            </p>
+            <img src="https://images.pexels.com/photos/5676748/pexels-photo-5676748.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Instalaciones de una institución educativa" class="imagen-principal">
+            <p class="texto-centro" style="margin-top: 25px;">
+                Nuestro objetivo es brindar conocimientos sólidos, herramientas de vanguardia y experiencias reales que preparen a los estudiantes para diversas oportunidades laborales.
+            </p>
+        </section>
+
+        <section id="servicios">
+            <h2>Nuestros servicios</h2>
+            <p class="texto-centro">Explora las diferentes opciones educativas que tenemos para impulsar tu futuro.</p>
+            <div class="tarjetas">
+                <article>
+                    <img src="https://images.pexels.com/photos/10638082/pexels-photo-10638082.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Carreras técnicas">
+                    <h3>Carreras Técnicas</h3>
+                    <p>Formación especializada orientada de forma directa al mercado laboral moderno.</p>
+                    <button type="button" onclick="mostrarInformación('📚 Carreras Técnicas:\n\nProgramas profesionales de 3 años orientados a la alta demanda laboral:\n- Computación e Informática\n- Electrónica Industrial\n- Mecánica de Producción\n- Administración de Negocios')">
+                        Ver carreras
+                    </button>
+                </article>
+
+                <article>
+                    <img src="https://images.pexels.com/photos/8199167/pexels-photo-8199167.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cursos especializados">
+                    <h3>Cursos Especializados</h3>
+                    <p>Capacitaciones intensivas en áreas tecnológicas y profesionales específicas.</p>
+                    <button type="button" onclick="mostrarInformación('⚙️ Cursos Especializados:\n\nProgramas cortos de 3 a 6 meses para actualización profesional:\n- Automatización y Control PLC\n- Programación en Python\n- Redes y Seguridad Informática\n- Diseño y Edición Digital')">
+                        Ver cursos
+                    </button>
+                </article>
+
+                <article>
+                    <img src="https://images.pexels.com/photos/8199167/pexels-photo-8199167.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Talleres y seminarios">
+                    <h3>Talleres y Seminarios</h3>
+                    <p>Actividades extracurriculares prácticas para complementar tu aprendizaje.</p>
+                    <button type="button" onclick="mostrarInformación('🛠️ Talleres y Seminarios:\n\nEspacios de aprendizaje práctico de fin de semana:\n- Talleres de innovación tecnológica\n- Conferencias magistrales con expertos\n- Seminarios de empleabilidad y liderazgo')">
+                        Ver talleres
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <section id="beneficios">
+            <h2>Beneficios para nuestros estudiantes</h2>
+            <p class="texto-centro">
+                Combinamos la teoría con vivencias académicas orientadas al éxito profesional.
+            </p>
+            <div class="tarjetas">
+                <article>
+                    <h3>Formación técnica</h3>
+                    <p>Desarrollo intensivo de competencias profesionales altamente valoradas.</p>
+                </article>
+                <article>
+                    <h3>Tecnología</h3>
+                    <p>Acceso continuo a herramientas digitales y recursos de última generación.</p>
+                </article>
+                <article>
+                    <h3>Práctica</h3>
+                    <p>Talleres equipados para ejecutar prácticas guiadas de nivel industrial.</p>
+                </article>
+                <article>
+                    <h3>Capacitación</h3>
+                    <p>Seminarios y certificaciones complementarias al finalizar tus módulos.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contactos">
+            <h2>Contáctanos</h2>
+            <p class="texto-centro">
+                Comunícate con nosotros para resolver tus dudas sobre admisiones, carreras o procesos de inscripción.
+            </p>
+            <div class="contacto-caja">
+                <div class="contacto-info">
+                    <p>📍 <strong>Dirección:</strong> Av. Principal 231, Ciudad</p>
+                    <p>📞 <strong>Teléfono:</strong> +51 987 456 353</p>
+                    <p>📩 <strong>Correo:</strong> info@instituto.edu.pe</p>
+                    <p>⌚ <strong>Horario:</strong> Lunes a Viernes: 8:00 a.m. - 6:00 p.m.</p>
+                </div>
+                <div>
+                    <img src="https://images.pexels.com/photos/2451616/pexels-photo-2451616.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Espacio de atención" class="imagen-contacto">
+                </div>
+            </div>
+        </section>
+
+        <section id="consultas">
+            <h2>Realiza tu consulta</h2>
+            <p class="texto-centro">Déjanos tus datos y mensaje, te responderemos a la brevedad.</p>
+            <form id="formConsulta">
+                <label for="nombreConsulta">Nombre Completo</label>
+                <input type="text" id="nombreConsulta" name="nombreConsulta" required>
+
+                <label for="temaConsulta">Tema de consulta</label>
+                <select id="temaConsulta" name="temaConsulta" required>
+                    <option value="">Selecciona un tema</option>
+                    <option value="carreras">Carreras Técnicas</option>
+                    <option value="cursos">Cursos especializados</option>
+                    <option value="talleres">Talleres y seminarios</option>
+                    <option value="registro">Proceso de registro</option>
+                    <option value="otros">Otros</option>
+                </select>
+
+                <label for="mensajeConsulta">Mensaje</label>
+                <textarea id="mensajeConsulta" name="mensajeConsulta" placeholder="Escribe tu consulta aquí..." rows="4" required></textarea>
+
+                <button type="submit" class="btn-formulario">Enviar Consulta</button>
+            </form>
+        </section>
+
+        <section id="registro">
+            <h2>Formulario de Registro</h2>
+            <p class="texto-centro">Inscríbete hoy mismo en nuestro instituto completando el formulario.</p>
+            <form id="formRegistro" method="post">
+                <label for="nombre">Nombre y Apellidos</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="programa">Programa de Interés</label>
+                <select id="programa" name="programa" required>
+                    <option value="">Seleccione un programa</option>
+                    <option value="Carrera Técnica">Carrera Técnica</option>
+                    <option value="Curso Especializado">Curso Especializado</option>
+                    <option value="Taller o Seminario">Taller o Seminario</option>
+                </select>
+
+                <button type="submit" class="btn-formulario">Enviar Registro</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Instituto Técnico Superior</h3>
+        <p>Av. Principal 232, Ciudad | Teléfono: +51 983 324 567</p>
+        <p>Correo: info@instituto.edu.pe</p>
+        <p class="footer-links">
+            <a href="#inicio">Inicio</a> | 
+            <a href="#nosotros">Nosotros</a> | 
+            <a href="#servicios">Servicios</a> | 
+            <a href="#contactos">Contactos</a>
+        </p>
+        <p>&copy; 2026 Instituto Técnico Superior. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function mostrarInformación(detalles) {
+            alert(detalles);
+        }
+
+        const formularioRegistro = document.querySelector("#formRegistro");
+
+        formularioRegistro.addEventListener("submit", function(evento) {
+            evento.preventDefault();
+
+            const nombre = document.querySelector("#nombre").value;
+            const correo = document.querySelector("#correo").value;
+            const telefono = document.querySelector("#telefono").value;
+            const programa = document.querySelector("#programa").value;
+
+            if (nombre === "" || correo === "" || telefono === "" || programa === "") {
+                alert("Por favor, completa todos los campos del formulario.");
+                return;
+            }
+
+            alert("¡Registro enviado correctamente!\n\n" + 
+                  "Nombre: " + nombre + "\n" + 
+                  "Correo: " + correo + "\n" + 
+                  "Teléfono: " + telefono + "\n" + 
+                  "Programa: " + programa);
+
+            formularioRegistro.reset();
+        });
+    </script>
+</body>
+</html>
